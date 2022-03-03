@@ -1,12 +1,13 @@
 import React from 'react';
  import 'antd/dist/antd.css';
 import './App.css'; 
-import Home from './components/Home';
+ 
+import Navbar from "./components/navbar/Navbar"
 
 function App() {
   return (
-    <>
-    <Home/>
+    <>  
+    <Navbar/>
     </>
   );
 }
