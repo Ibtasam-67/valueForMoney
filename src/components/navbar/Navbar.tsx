@@ -7,7 +7,10 @@ const Navbar = () => {
   <Layout>
     <Header style={{ position: 'fixed', zIndex: 1, width: '100%'
  }}>
-      <div className="logo" />
+     <img
+  className="logo"
+  src="https://www.skysens.io/images/white-logo.png"
+/>
       <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['2']} 
       style={{display:"flex",flexDirection:"row",justifyContent:"flex-end"}}>
         <Menu.Item key="1">nav 1</Menu.Item>
