@@ -1,0 +1,9 @@
+.footer {
+  height: 10vh;
+  text-align: center;
+  background-color: #001529;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

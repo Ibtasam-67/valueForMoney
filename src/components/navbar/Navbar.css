@@ -7,6 +7,16 @@
 .site-layout .site-layout-background {
   background: #fff;
 }
+
 [data-theme="dark"] .site-layout .site-layout-background {
   background: #141414;
+}
+.menu-item {
+  color: grey !important;
+}
+.menu-item:hover {
+  color: #fff !important;
+}
+.login-link:hover {
+  background-color: #1890ff;
 }
